@@ -25,13 +25,13 @@ function App() {
       <div style={{backgroundColor:'#33C7FF',padding:'32px'}}><h1 style={{color:'#fff'}}>VamosCobán</h1></div>
       
 <div>
-<MapContainer center={[15.460406901630977,-90.3682941198349]} zoom={100} scrollWheelZoom={false}>
+<MapContainer center={[15.464408, -90.368063]} zoom={15} scrollWheelZoom={false}>
   <TileLayer
     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
   />
   {_data()}
-  <Marker position={[15.460406901630977,-90.3682941198349]}>
+  <Marker position={[15.464408, -90.368063]}>
     <Popup>
       A pretty CSS3 popup. <br /> Easily customizable.
     </Popup>
