@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { MapContainer, Marker, TileLayer, Popup,GeoJSON } from 'react-leaflet';
-import 'leaflet/dist/leaflet.css';
+
 function App() {
 
   const data={
